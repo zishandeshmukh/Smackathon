@@ -9,6 +9,8 @@ class _ContactList extends State<ContactList>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    throw UnimplementedError();
+  return(
+        Text("Contact List")
+  );
   }
 }

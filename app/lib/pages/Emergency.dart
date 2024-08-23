@@ -9,6 +9,6 @@ class _Emergency extends State<Emergency>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    throw UnimplementedError();
+  return Text("Emergency");
   }
 }
