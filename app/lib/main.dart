@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:women_safety/pages/dynamic_main.dart';
+import 'package:women_safety/pages/notification_page.dart';
 
 void main()=>runApp(const MainApp());
 
@@ -14,6 +15,7 @@ class MainApp extends StatelessWidget{
 
       routes:{
         '/user':(context)=>DynamicMain(),
+        '/notifications':(context)=>NotificationPage(),
 
       },
     );
