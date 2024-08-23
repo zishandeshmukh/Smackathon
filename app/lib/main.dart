@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:women_safety/pages/dynamic_main.dart';
 class MainApp extends StatelessWidget{
   const MainApp({super.key});
   @override
@@ -6,7 +7,10 @@ class MainApp extends StatelessWidget{
     // TODO: implement build
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:
+      home:DynamicMain(),
+      routes:{
+        '/user':(context)=>DynamicMain(),
+      },
     );
   }
 }
