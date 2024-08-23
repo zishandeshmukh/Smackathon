@@ -51,7 +51,7 @@
             </div>
 
             <div class="flex justify-center items-center">
-                <a href="admin"><button  class="m-3 w-full bg-pink-500 text-white py-1 rounded-full hover:bg-pink-600">
+                <a href="admin"><button type="submit" class="m-3 w-full bg-pink-500 text-white py-1 rounded-full hover:bg-pink-600">
                     Login
                 </button></a>
             </div>

@@ -4,32 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Safeguard</title>
-    
-    <!-- Script Tab at Upper End -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Example Custom Script -->
-    <script>
-        // Custom JavaScript can go here
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('Safeguard App Loaded');
-        });
-    </script>
 </head>
-<body class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300 flex items-center justify-center h-screen">
+<body class="bg-gray-100 flex items-center justify-center h-screen">
 
     <div class="bg-white p-8 rounded-lg shadow-lg w-80">
         <h1 class="text-pink-500 text-2xl font-bold mb-4 text-center">Safeguard</h1>
 
         <form action="#" method="POST" class="space-y-4">
             
-            <!-- Option Buttons for Login and Sign Up -->
-            <div class="flex justify-around mb-4">
-                <button type="button" class="w-1/2 text-pink-600 py-1 mx-3 rounded-full">
-                    Login
-                </button>
-                <button type="button" class="w-1/2 text-pink-600 py-1 mx-2 rounded-full">
-                    Sign Up
-                </button>
+            <!-- Description or Decoration -->
+            <div class="text-center text-gray-600 mb-4">
+                <p>Enter your phone number to get started</p>
             </div>
 
             <div>
@@ -51,9 +37,9 @@
             </div>
 
             <div class="flex justify-center items-center">
-                <a href="admin"><button  class="m-3 w-full bg-pink-500 text-white py-1 rounded-full hover:bg-pink-600">
+                <button type="submit" class="m-3 w-full bg-pink-500 text-white py-1 rounded-full hover:bg-pink-600">
                     Login
-                </button></a>
+                </button>
             </div>
         </form>
     </div>

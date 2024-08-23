@@ -53,6 +53,9 @@
             <div class="flex justify-center items-center">
                 <a href="admin"><button  class="m-3 w-full bg-pink-500 text-white py-1 rounded-full hover:bg-pink-600">
                     Login
+                    <div class="flex justify-center items-center">
+                        <a href="sign up"><button  class="m-3 w-full bg-pink-500 text-white py-1 rounded-full hover:bg-pink-600">
+                            Login
                 </button></a>
             </div>
         </form>
