@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class NotificationPage extends StatefulWidget{
-  const NotificationPage({super.key});
+class CallPage extends StatefulWidget{
+  const CallPage({super.key});
   @override
-  _NotificationPage createState ()=> _NotificationPage();
+  _CallPage createState ()=> _CallPage();
 }
 
-class _NotificationPage extends State<NotificationPage>{
+class _CallPage extends State<CallPage>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -19,7 +19,7 @@ class _NotificationPage extends State<NotificationPage>{
         },
             icon: const Padding(padding: EdgeInsets.symmetric(horizontal: 15),
               child:Icon(Icons.arrow_back_ios,color: Colors.white,))),
-        title:const Text("Notification",style:TextStyle(color:Colors.white)),
+        title:const Text("Call",style:TextStyle(color:Colors.white)),
         centerTitle: true,
 
       ),

@@ -19,7 +19,7 @@ class _NotificationPage extends State<NotificationPage>{
         },
             icon: const Padding(padding: EdgeInsets.symmetric(horizontal: 15),
               child:Icon(Icons.arrow_back_ios,color: Colors.white,))),
-        title:const Text("Notification",style:TextStyle(color:Colors.white)),
+        title:const Text("Notifications",style:TextStyle(color:Colors.white)),
         centerTitle: true,
 
       ),
