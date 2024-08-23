@@ -18,6 +18,7 @@ class MainApp extends StatelessWidget{
         '/user':(context)=>DynamicMain(),
         '/notifications':(context)=>NotificationPage(),
         '/call':(context)=>CallPage(),
+        '/login':(context)=>LoginPage(),
       },
     );
   }
